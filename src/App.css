@@ -1,0 +1,62 @@
+.card
+{
+    margin-top: 100px;
+    width: 600px;
+    height: 240px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+.card__img
+{
+    height: 100%;
+}
+
+.container-info
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.card__artist, .card__album
+{
+    margin-bottom: 30px;
+}
+
+.artist-name
+{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.album-name
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card_genre
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.genre
+{
+    padding: 10px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.like-icon
+{
+    font-size: 28px;
+    color: grey;
+    font-weight: bold;
+}
